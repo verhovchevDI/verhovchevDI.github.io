@@ -1,24 +1,147 @@
+
 body {
-    font-family: sans-serif;
-}
-h1{
-    background-color: grey;
+  font-family: sans-serif;
 }
 
-header{
-    background-color: black;
-    padding: 40px 0px 40px;
+header {
+  background-color: #5ccccc;
+  padding: 40px 0px 40px 25px;
 }
 
-h1{
-    text-align: center;
-    color: black;
+.link-header {
+  background-image: linear-gradient(180deg, #42F73E 0%, #36B0D7 9.9%, #19A8D6 88.54%, #ECF029 100%);
+  padding: 5px 10px 5px 10px;
+  font-size: 36px;
+  text-decoration: none;
 }
 
-p{
-    font-size: 24px;
-    margin-left: 60px;
+.link-header:hover {
+  background-image: linear-gradient(180deg, #7E57C2 0%, #FFFFFF 9.9%, #FFFFFF 88.54%, #2AB428 100%);
+  color: #F86A03;
+  transition: 1.5s linear;
 }
-.g{
-    padding: 10px;
+
+main {
+  margin: 0 auto;
+}
+
+.description {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #9FEE00;
+  font-size: 96px;
+  text-shadow: 0px 20px 10px rgba(29, 115, 115, 0.38);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.container-nav {
+  position: relative;
+}
+
+.link-mysites {
+  color: #FFFFFF;
+  font-size: 24px;
+  text-decoration: none;
+  position: absolute;
+  top: 90px;
+  left: 295px;
+}
+
+.link-mysites:hover {
+  color: #FD3104;
+  transition: 1.5s linear;
+}
+
+.link-info {
+  color: #000000;
+  font-size: 24px;
+  text-decoration: none;
+  position: absolute;
+  left: 290px;
+  top: 140px;
+  width: 40px;
+}
+
+.link-info:hover {
+  color: #0000FF;
+  transition: 1.5s linear;
+}
+
+p {
+  font-size: 24px;
+  margin-left: 60px;
+}
+
+ul {
+  font-size: 24px;
+  list-style: none;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+ol {
+  font-size: 24px;
+  margin-left: 60px;
+}
+
+.text-big {
+  font-size: 48px;
+  margin-left: 60px;
+}
+  
+.link-text {
+  color: #0000FF;
+  text-decoration: none;
+  border-bottom: 2px solid #0000FF;
+}
+
+h2 {
+  color: #006363;
+  font-size: 64px;
+  margin-left: 60px;
+}
+
+footer {
+  padding: 65px 0px 80px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container-links {
+  width: 120px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+footer img {
+  display: block;
+}
+
+.social {
+  display: inline-block;
+  margin: 30px;
 }
